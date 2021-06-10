@@ -1,0 +1,27 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11/12/2020, 11:23:09 AM
+    Author     : Sara
+*/
+
+h3.H3 {
+  color: #402C33;
+  font-family: "Oldenburg", cursive;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+  font-size: 20px;
+  font-family: "Bentham", serif;
+}
+
+#importante{
+    width: 50px;
+}

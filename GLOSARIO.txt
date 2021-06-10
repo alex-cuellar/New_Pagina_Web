@@ -1,0 +1,20 @@
+Usuario Correspondiente
+	UAN - Usuario Anonimo
+	UAD - Usuario Administrador
+	URE - Usuario Registrado
+	UMOD - Usuario Moderador
+	UCC - Usuario Creador de Contenido
+	UEDIT - Usuario Editor
+
+Vista
+NF - Corresponde a la página principal y subdivisiones
+
+
+
+Crear tabla para advertencias después de borrar comentario
+Crear Tabla de cuentas Suspendidas
+Query para ver si estan suspendidos dentro de login
+si se encuentra revisar si la fecha actual es previa a fecha limite
+de suspension 
+
+-Agregar a noticia apartado de vistas, y aumentar +1 cada que entren

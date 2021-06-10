@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #e6e3e3;
+}
+
+.container{
+    padding: 20px;
+}
+img{
+    padding: 0%;
+    margin: 0%;
+    
+}
+
+
+.noticias{
+    width: 95%;
+    padding: 10px;
+
+    border-color: #745a5a;
+    margin-top: 20px;
+   border-style: dashed;
+   border-width: auto;
+    display: block;
+
+    background-color: #D9D7D7;
+
+}
+
+.datosInf{
+ padding: 0%;
+ margin: 0%;
+
+ position: absolute;  
+ text-align: left;   
+
+
+   
+}
+
+.genero{
+    font-family: 'Oldenburg', cursive;
+}
+
+.titulo{
+    font-family: 'IM Fell DW Pica SC', serif;
+    background-color: #D9D7D7; 
+    text-align: center;
+    margin: 2px;
+    
+}
+
+nav {
+    font-size: 20px;
+    font-family: "Bentham", serif;
+  }
+
+
+@media screen and (max-width: 799px){
+    div > div{
+        width: 45%;
+        height: auto;
+        display: inline-block;
+    }
+    div.Imagen{
+        padding: 0%;
+        background-color: #D9D7D7;
+    }
+    img{
+        width: 150px;
+    }
+
+    .noticias{
+        height: 250px;
+    }
+
+    .titulo{
+        font-size: 25px;
+        margin-bottom: 20px
+    }
+
+    .datos{
+        font-size: 20;
+        background-color: #D9D7D7;
+    }
+
+}
+
+@media screen and (min-width: 800px){
+    div > div{
+        width: 250px;
+        height: auto;
+        display: inline-block;
+     
+    }
+
+    img{
+        width: 300px;
+    }
+
+    .datosInf{
+        margin-left: 1%;
+        width: 50%;
+        margin-left: 70px;
+    }
+
+    .titulo{
+        font-size: 40px;
+        margin-bottom: 10px
+    }
+
+    p.datos{
+        font-size: large;
+        font-family: 'Bentham', serif;
+        background-color: #D9D7D7;
+
+    }
+
+    .container{
+        padding: 60px;
+    }
+
+}

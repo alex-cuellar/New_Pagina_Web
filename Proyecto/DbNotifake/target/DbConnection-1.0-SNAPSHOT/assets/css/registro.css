@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-image: url(../Imagenes/FakeNews.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.formR {
+  width: 400px;
+  background: #fca652;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'Special Elite', cursive;
+  font-weight: bolder;
+  color: #ac4b1c;
+  box-shadow: 7px 13px 37px rgb(184, 127, 6);
+}
+
+.controls{
+    width: 100%;
+    background: #fdb16b;
+    padding: 4px;
+    border-radius: 9px;
+    margin-bottom: 12px;
+    margin-top: 2px;
+    border: 1px solid #8d380e;
+    font-family: 'Special Elite', cursive;
+    font-size: 14px;
+}
+
+.ER{
+    width: 100%;
+    border: 2px solid rgb(164, 236, 47);
+    padding: 12px;
+    margin: 16px 0;
+    color: white;
+    background: rgb(30, 147, 214);
+    font-size: 14px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+

@@ -1,0 +1,225 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  background-color: #d9d7d7;
+}
+
+.Titulo {
+  font-family: "IM Fell DW Pica SC", serif;
+  color: rgb(63, 22, 3);
+  text-align: center;
+  margin: 3%;
+}
+
+.Parrafo {
+  font-family: "Suravaram", serif;
+  text-align: justify;
+  color: #64101f;
+}
+
+div.footer {
+  background-color: #d9b8b8;
+  width: 100%;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+div.media,
+div.media-body,
+.mt-0, .group, .controls {
+  background-color: transparent;
+}
+
+.Titulo2 {
+  font-family: "IM Fell DW Pica SC", serif;
+  background: transparent;
+  text-align: center;
+  color: #745a5a;
+}
+
+div.media {
+  border-width: 2px;
+  border-style: dashed;
+  border-color: #745a5a;
+  margin-bottom: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.btn {
+  width: 25%;
+}
+
+.form-group,
+.comentario {
+  text-align: center;
+  background: transparent;
+}
+.form-control {
+  margin-left: 2%;
+  width: 95%;
+}
+
+
+.comentar{
+  background: transparent;
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+
+.iconos{
+  background: transparent;
+
+  padding-top: 0%;
+
+}
+
+.Like{
+  background-color: transparent;
+  width: 30px;
+}
+
+.NoLike{
+  background-color: transparent;
+  width: 30px;
+}
+
+.Favorito{
+  width: 60px;
+  display:  inline;
+  position: absolute;
+  right: 20px;
+}
+
+.text{
+  background-color: transparent;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.Titulo2{
+  font-family: "Oldenburg", cursive;
+  background-color: transparent;
+  text-align: center;
+  font-size: 35px;
+}
+
+h5{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: transparent;
+
+}
+
+h3{
+  font-family: "IM Fell DW Pica SC", serif;
+  color: rgb(83, 83, 83);
+}
+
+h4{
+  font-family: 'Suravaram', serif;
+  color: rgb(87, 86, 86);
+}
+
+.controls, .text{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+
+@media screen and (max-width: 799px) {
+  .container {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+
+  img {
+    max-width: 500px;
+    margin: 5px;
+  }
+
+  .Titulo,
+  .Titulo2 {
+    font-size: 50px;
+  }
+
+  .Parrafo {
+    margin-top: 5px;
+    font-size: 25px;
+  }
+
+  .footer .media img {
+    max-width: 64px;
+    max-height: 64px;
+  }
+
+  .iconos{
+    position: static;
+    display: block;
+  }
+
+  h5{
+    font-size: 20pz;
+  }
+
+  .text{
+    font-size: 17px;
+  }
+
+  h3{
+    font-size: 25px;
+  }
+
+  h4{
+    font-size: 20px;
+  }
+
+  .Favorito{
+    width: 40px;
+  }
+ 
+}
+
+@media screen and (min-width: 800px) {
+  img {
+    max-width: 1050px;
+    margin: 8px;
+  }
+
+  .Titulo,
+  .Titulo2 {
+    font-size: 80px;
+  }
+
+  p {
+    font-size: 30px;
+  }
+
+  .footer .media img {
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .iconos{
+    position: relative;
+    display: inline;
+  }
+
+  h5{
+    font-size: 30px;
+  }
+
+  .text{
+    font-size: 25px;
+  }
+
+  h3{
+    font-size: 40px;
+  }
+
+  h4{
+    font-size: 35px;
+  }
+
+}

@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  background-color: #312d29;
+}
+
+h3.H3 {
+  color: rgb(230, 181, 231);
+  font-family: "Oldenburg", cursive;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+nav {
+  font-size: 20px;
+  font-family: "Bentham", serif;
+}
+
+div.card {
+  background-color: #312d29;
+  color: red;
+}
+
+h5.card-title {
+  color: rgb(228, 131, 20);
+  font-family: "IM Fell DW Pica SC", serif;
+}
+
+p.card-text {
+  color: rgb(120, 189, 253);
+  font-family: "Suravaram", serif;
+}
+
+div.footer{
+  background: rgb(165, 42, 73);
+}
+.footer > h3{
+  margin-top: 0%;
+}
+.Alumn {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  transition: 0.5s;
+}
+
+.box > .imgBx {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+
+}
+
+.box > img {
+  
+  max-width: 100%;
+  opacity: 0;
+  transition: 0.5s;
+  
+}
+
+img:hover {
+  opacity: 1;
+}
+
+
+div.cont > h2 {
+  color: rgb(230, 181, 231);
+  font-family: "Oldenburg", cursive;
+  background-color: transparent;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2>span{
+  color: rgb(231, 32, 5);
+}

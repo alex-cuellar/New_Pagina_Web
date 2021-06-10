@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi perfil</title>
+
+    <link rel="stylesheet" href="css/Perfil.css">
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+        </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+        </script>
+
+
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Suravaram&display=swap" rel="stylesheet">
+
+
+
+
+
+</head>
+
+
+<body>
+
+    <div class="container">
+
+        <div class="imagenperfil">
+            <img class="Imagen" name="Imagen" src="https://3.bp.blogspot.com/-KuRRS-dezP4/WXCUzg3pmgI/AAAAAAAAVfQ/0RskruL99xMqNrlktSDD1x6WST917ykOgCLcBGAs/s1600/mj5.jpg"
+                alt="IMAGEN:JPG">
+
+                <div class="form-group">
+                    <label for="image" class="Subtitulos"> Seleccionar </label>
+                    <input type="file" class="form-control" name="PImage" id="PImage">
+                </div>
+        </div>
+
+
+
+        <div class="informacion">
+            <label for="Nombre">Nombre</label>
+            <input type="text" name="Nombre" id="Nombre" placeholder="Quien es, quien sera">
+
+            <label for="Descripcion">Descripcion</label>
+            <textarea class="form-control" name="Descripcion" id="Descripcion" rows="2"
+                placeholder="Esta es la descripcion... "></textarea>
+
+            <label for="correo">Correo</label>
+            <input type="text" name="Correo" id="Correo" placeholder="resolviendo@cine.com">
+
+            <label for="pass">Contraseña</label>
+            <input type="password" name="Contraseña" id="Contraseña" placeholder="Th_F48Y_r311_n0">
+
+            <label for="RedS">Red Social</label>
+            <input type="text" name="RedS" id="RedS" placeholder="Aquí va la red social">
+
+        </div>
+
+        <div class="form-group-btn">
+            <input class="btn btn-dark" name="Guardar" type="submit" value="Guardar">
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>

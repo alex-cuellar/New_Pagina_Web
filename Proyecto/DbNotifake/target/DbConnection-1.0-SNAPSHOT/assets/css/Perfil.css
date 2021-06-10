@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  background-color: #d9d7d7;
+}
+
+.imagenperfil,
+.Imagen{
+  width: 40%;
+  display: inline;
+  position: relative;
+  padding: 0%;
+  margin-left: 3px;
+  margin-top: 50px;
+
+}
+
+
+label {
+  display: block;
+  font-family: "IM Fell DW Pica SC", serif;
+}
+
+input,
+textarea, .form-control {
+  width: 100%;
+  border-radius: 9px;
+  margin-bottom: 12px;
+  font-family: "Suravaram", serif;
+
+}
+
+
+
+@media screen and (max-width: 799px) {
+  label {
+      font-size: 15px;
+  }
+
+  input,
+  textarea, .form-control {
+    font-size: 11px;
+  }
+  .informacion {
+    width: auto;
+    display: block;
+    margin-right: 3px;
+  }
+
+  .form-group-btn{
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  .form-group{
+    display: block;
+    width: 40%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+    label {
+        font-size: 30px;
+    }
+  
+    input,
+    textarea, .form-control {
+      font-size: 15px;
+    }
+
+    
+    .form-group-btn{
+     
+      text-align: center;
+      display: block;
+    }
+
+    .form-group{
+      display: block;
+      width: 40%;
+    }
+
+
+
+}

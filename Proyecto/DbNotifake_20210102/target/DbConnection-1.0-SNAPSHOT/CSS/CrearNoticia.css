@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+
+  background-color: #d9d7d7;
+}
+
+.container-fluid {
+  background-color: #e6e3e3;
+}
+
+h1.H1 {
+  font-family: "Oldenburg", cursive;
+  background-color: transparent;
+  text-align: center;
+  padding: 30px;
+  color: #402c33;
+  font-weight: bold;
+}
+
+.Subtitulos {
+  font-family: "IM Fell DW Pica SC", serif;
+  color: #6b4e4e;
+  font-size: 30px;
+  font-weight: lighter;
+  background: none;
+}
+
+.form-control {
+  box-shadow: 8px 4px 30px rgb(0, 0, 0);
+  font-family: "Bentham", serif;
+}
+
+.Subir, .Guardar {
+  width: 30%;
+  font-family: "Bentham", serif;
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  margin-left: 35%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 2px solid#9e4a59;
+  box-shadow: 8px 4px 30px rgb(0, 0, 0);
+ display: inline;
+}
+
+.group{
+  background: transparent;
+}
+
+.form-group{
+  background: transparent;
+}
+
