@@ -5,10 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registro</title>
 
-
     <link rel="stylesheet" href="CSS/registro.css">
 
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+    <script type="text/javascript">
+        function validar()
+        {
+            var usuario = document.getElementById("First name").value;
+            var usuario2 = document.getElementById("Last name").value;
+            var mail = document.getElementById("address").value;
+            var Contraseña = document.getElementById("password").value;	
+
+            if(usuario == "Alex" && usuario2 == "Cuellar" && mail == "alex-ov-rpm@hotmail.com" && Contraseña == "12345678")
+            {
+                alert("Los datos son válidos");
+            }
+            else
+            {
+                alert("Alerta: Verifique sus credenciales");
+            }
+        }
+    </script>
 
 </head>
 <body>
@@ -17,28 +35,29 @@
 
         <div class="group">
             <label for="name">Nombre</label>
-            <input class="controls" type="text" name="name" id="name" placeholder="Nombre(s)" required autocomplete="off">
+            <input class="controls" type="text" name="name" id="First name" placeholder="Nombre(s)" required autocomplete="off">
 
         </div>
 
         <div class="group">
             <label for="name">Apellido</label>
-            <input class="controls" type="text" name="Ap" id="Ap" placeholder="Apellido(s)" required autocomplete="off">
+            <input class="controls" type="text" name="Ap" id="Last name" placeholder="Apellido(s)" required autocomplete="off">
 
         </div>
 
         <div class="group" required>
             <label for="email">Email</label>
-            <input class="controls" type="email" name="email" id="email" placeholder=" ejemplo@cine.com" required>
+            <input class="controls" type="email" name="email" id="address" placeholder=" ejemplo@cine.com" required>
         </div>
 
         <div class="group" required>
             <label for="pas">Contraseña </label>
-            <input class="controls" class = "form-error" type="password" name="pas" id="pas" placeholder=" LunchTime123" required minlength="8">
+            <input class="controls" class = "form-error" type="password" name="pas" id="password" placeholder=" LunchTime123" required minlength="8">
         </div>
         
         <div class="group">
-            <input class="ER" type="submit" value="Registrar">
+            <input class="ER" type="submit" onclick="validar()" value="Registrar">
+            <!-- <td colspan="2"><input type="submit" name="submit" id="Enviar" onclick="validar()" value="submit" > </td> -->
         </div>
    
     </form>

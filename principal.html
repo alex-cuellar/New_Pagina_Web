@@ -33,6 +33,29 @@
     <link href="https://fonts.googleapis.com/css2?family=Suravaram&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Oldenburg&display=swap" rel="stylesheet">
 
+    <script type="text/javascript">
+        $(document).ready(function() {
+             
+            const mail = new URLSearchParams(window.location.search).get('Usuario');
+            const Contraseña = new URLSearchParams(window.location.search).get("Contraseña");          
+            
+              if(mail!="" && mail != null)
+            {
+              $("#inicio").hide();
+              $("#reg").hide();
+              $("#salir").show();
+              $("#icon").show();
+            } 
+            $("#salir").click(function() {
+                $("#inicio").show();
+              $("#reg").show();
+              $("#salir").hide();
+              $("#icon").hide();
+            })
+        
+       })
+
+    </script>
 
 </head>
 
@@ -54,6 +77,8 @@
                         <a class="nav-item nav-link active" href="#">Principal</a>
                         <a class="nav-item nav-link" href="#">Cine</a>
                         <a class="nav-item nav-link" href="#">Series</a>
+                        <!-- <img id="icon" style="width:45px; height:45px" src="Imagenes/thundercracker.jpg"> -->
+                        <img id="icon" style="width:45px; height:45px; display:none" src="Imagenes/Greg.jpg">
         
                     </div>
                 </ul>
@@ -61,8 +86,9 @@
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
-                <a href="IS.html"><button class="btn btn-sm btn-outline-dark" type="button">Iniciar Sesion</button></a>
-                <a href="registro.html"><button class="btn btn-sm btn-outline-dark" type="button">Registrarse</button></a>
+                <a href="IS.html"><button id="inicio"class="btn btn-sm btn-outline-dark" type="button">Iniciar Sesion</button></a>
+                <button id="salir" style="display: none;" class="btn btn-sm btn-outline-dark" type="button">Salir</button>
+                <a href="registro.html"><button id="reg" class="btn btn-sm btn-outline-dark" type="button">Registrarse</button></a>
             </div>
 
         </nav>

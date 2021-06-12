@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iniciar Sesion</title>
     <link rel="stylesheet" href="css/IS.css">
+    <script type="text/javascript">
+		function validar()
+		{
+			var mail = document.getElementById("address").value;
+			var Contraseña = document.getElementById("password").value;	
+
+			if(mail == "alex-ov-rpm@hotmail.com" && Contraseña == "12345678")
+			{
+				/* alert("Usuario y Contraseña validos"); */
+                /* window.location.href = "principal.html"; */
+                window.location.href="principal.html?Usuario="+mail+"&Contraseña="+Contraseña;
+			}
+			else
+			{
+				alert("Verifique sus credenciales");
+			}
+            return false;
+		}
+	</script>
+
+
 </head>
 <body>
     
@@ -14,12 +35,13 @@
         <form>
 
             <label for="correo">Correo</label>
-            <input type="text" name="Correo" id="Correo" placeholder="resolver@cine.com">
+            <input type="text" name="Correo" id="address" placeholder="resolver@cine.com">
 
             <label for="pass">Contraseña</label>
-            <input type="password" name="Contraseña" id="Contraseña" placeholder="Gr_F48Y_UML">
+            <input type="password" name="Contraseña" id="password" placeholder="Gr_F48Y_UML">
 
-            <input  class="ER" name="Entrar" id="Entrar" type="submit" value="Entrar">
+            <input  class="ER" name="Entrar" id="Entrar" type="button" onclick="validar()" value="Entrar">
+            <!-- <td colspan="2"><input type="button" name="btnVerifivaca" id="btnVerifica" onclick="validar()" value="login" > </td> -->
             
             <div class="form-check">
                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
