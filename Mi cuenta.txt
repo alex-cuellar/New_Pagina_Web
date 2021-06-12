@@ -1,4 +1,9 @@
-Aquí estan mis datos para que se pueda probar el inisiar sesión.
+Aquí estan mis datos para que se pueda probar el iniciar sesión y 
+opcionalmente el registro.
 
-Cuenta: alex-ov-rpm@hotmail.com
+Cuenta o correo elctrónico: alex-ov-rpm@hotmail.com
 Contraseña: 12345678
+
+otros datos.
+Nombre: Alex
+Apellido: Cuellar
